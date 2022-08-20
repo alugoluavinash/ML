@@ -1,3 +1,4 @@
-code = '''def hello():
-             print("Hello, Streamlit!")'''
-st.code(code, language='python')
+import streamlit as st
+import pandas as pd
+import numpy as np
+st.title('This is a title')
